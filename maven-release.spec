@@ -1,6 +1,6 @@
 Name:           maven-release
 Version:        2.2.1
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Release a project updating the POM and tagging in the SCM
 
 Group:          Development/Libraries
@@ -118,6 +118,9 @@ EOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.1-12
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 2.2.1-11
 - Migrate away from mvn-rpmbuild (Resolves: #997504)
 
